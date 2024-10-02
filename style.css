@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-section {
+    position: relative;
+
+}
+
+.image_text {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    color: black;
+    text-align: start;
+   
+}
+
+.image-style {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imagess {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form {
+    background-color: rgb(238, 229, 215);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .image_text {
+        position: static;
+        text-align: center;
+        transform: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .contact-form, .card, .main {
+        padding: 15px;
+    }
+}
+p,h1{
+    margin: 0;
+    padding: 0;
+}
+.ct{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    padding: 4px;
+    color: blue;
+}
+
+
+   
